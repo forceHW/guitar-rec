@@ -4,8 +4,7 @@ from dotenv import load_dotenv, dotenv_values
 
 load_dotenv()
 
-# API_KEY = os.getenv('API_KEY')
-# openai.api_key = API_KEY
+
 
 client = OpenAI(api_key = os.getenv('API_KEY'))
 

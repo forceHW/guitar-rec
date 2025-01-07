@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<header>
     <link rel = "stylesheet" href="web.css">
+    <h1> Electric Guitar Recommender</h1>  
     <title>
-        Guitar Recommender
+        EGR
     </title>
-</head>
+     
+
+</header>
 <body>
     <form>
-        <label for="budget">Budget:</label><br>
-        <input type="text" id="budget" name="budget"><br>
+        <label for="min-budget">Min Budget:</label>
+        <input type="text" id="min-budget" name="min-budget" placeholder="Enter min budget">
 
+        <label for="max-budget">Max Budget:</label>
+        <input type="text" id="max-budget" name="max-budget" placeholder="Enter max budget">
+
+        <label for="Genre/Tone">Choose a Genre/Tone</label>
+        <select id="Genre" name="Genre/Tone">
+            <option value="I Don't Know">I Don't Know</option> 
+            <option value="Heavy Metal">Heavy Metal</option>
+            <option value="Hard Rock">Hard Rock</option>
+            <option value="Jazz">Jazz</option>
+            <option value="Blues">Blues</option>
+            <option value="Funk">Funk</option>
+            <option value="Country">Country</option>
+        </select>
+
+        <label for="shape">Prefered Shape</label>
+        <input type="text" id="shape" name="shape" placeholder="Leave Blank if you have none :)">
 
     </form>
 

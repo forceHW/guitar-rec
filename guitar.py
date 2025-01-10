@@ -10,11 +10,6 @@ app = Flask(__name__)
 
 client = OpenAI(api_key = os.getenv('API_KEY'))
 
-
-
-budget = input('what is your budget: ')
-
-
 @app.route('/', methods=['GET','POST'])
 def index():
     guitars = []

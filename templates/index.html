@@ -7,9 +7,8 @@
     <title>
         EGR
     </title>
-     
-
 </header>
+
 <body>
     <form action ="/" method="POST">
         <label for="min-budget">Min Budget:</label>
@@ -29,21 +28,21 @@
             <option value="Country">Country</option>
         </select>
 
-        <label for="shape">Prefered Shape</label>
-        <input type="text" id="shape" name="shape" placeholder="Leave Blank if you have none">
+        <label for="shape">Prefered Shape:</label>
+        <input type="text" id="shape" name="shape" placeholder="Leave blank if you have none">
 
         <button type="submit">Get Recommendations</button>
 
     </form>
 
-    {% if guitars %}
-    <h2>Recommended Guitars:</h2>
-    <ul>
-        {% for guitar in guitars %}
-            <li>{{ guitar }}</li>
-        {% endfor %}
-    </ul>
-    {% endif %}
+        {% if guitars %}
+        <h2>Recommended Guitars:</h2>
+        <ul>
+            {% for guitar in guitars %}
+                <li>{{ guitar }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
 
 </body>
 </html>

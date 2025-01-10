@@ -11,7 +11,7 @@
 
 </header>
 <body>
-    <form>
+    <form action ="/" method="POST">
         <label for="min-budget">Min Budget:</label>
         <input type="text" id="min-budget" name="min-budget" placeholder="Enter min budget">
 
@@ -30,7 +30,9 @@
         </select>
 
         <label for="shape">Prefered Shape</label>
-        <input type="text" id="shape" name="shape" placeholder="Leave Blank if you have none :)">
+        <input type="text" id="shape" name="shape" placeholder="Leave Blank if you have none">
+
+        <button type="submit">Get Recommendations</button>
 
     </form>
 

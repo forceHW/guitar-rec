@@ -8,7 +8,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Open web.html",
-            "file": "c:\\Users\\Hoodh\\guitar-rec\\web\\web.html"
+            "file": "c:\\Users\\Hoodh\\guitar-rec\\index.html"
         }
     ]
 }

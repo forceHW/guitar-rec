@@ -36,5 +36,14 @@
 
     </form>
 
+    {% if guitars %}
+    <h2>Recommended Guitars:</h2>
+    <ul>
+        {% for guitar in guitars %}
+            <li>{{ guitar }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
 </body>
 </html>

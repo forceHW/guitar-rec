@@ -36,7 +36,7 @@ def index():
                 model="gpt-4o-mini",
             )
 
-        guitars = chat_completion.choices[0].message['content'].split('\n')
+        guitars = chat_completion.choices[0].message.content.split('\n')
 
 
     return render_template('index.html', guitars=guitars)

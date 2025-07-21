@@ -19,7 +19,7 @@ with st.form("guitar_form"):
     
     genre = st.selectbox(
         "Choose a Genre/Tone",
-        ["I Don't Know", "Heavy Metal", "Hard Rock", "Jazz", "Blues", "Funk", "Country"]
+        ["I Don't Know", "Metal", "Rock", "Jazz", "Blues", "Funk", "Country"]
     )
     
     shape = st.text_input("Preferred Shape (leave blank if none)", placeholder="e.g., Stratocaster")
